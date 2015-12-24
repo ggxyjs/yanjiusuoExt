@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yanjiusuo.dao.UserDao">
+	<resultMap id="UserMapper" type="com.yanjiusuo.model.UserBean" >
+		<result property="id" column="ID" />
+		<result property="user_login" column="USER_LOGIN" />
+		<result property="user_pass" column="USER_PASS" />
+		<result property="user_nicename" column="USER_NICENAME" />
+		<result property="user_email" column="USER_EMAIL" />
+		<result property="user_url" column="USER_URL" />
+		<result property="user_registered" column="USER_REGISTERED" />
+		<result property="user_activation_key" column="USER_ACTIVATION_KEY" />
+		<result property="user_status" column="USER_STATUS" />
+		<result property="display_name" column="DISPLAY_NAME" />
+	</resultMap>
+
+	<select id="findUserByLogin" parameterType="java.lang.String" resultMap="UserMapper">
+		SELECT * FROM jg_users WHERE USER_LOGIN=#{user_login}
+	</select>
+
+</mapper>

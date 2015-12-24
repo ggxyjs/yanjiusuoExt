@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{color:#000;background:#FFF}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+body,input{background:#FFF}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}
+input,textarea,select{*font-size:100%}
+legend{color:#000}
+body,button,input,select,textarea{font:12px/1.5 tahoma,arial;color:#666}
+a{color:#000;text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+.global-clearfix::after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden;}
+
+/* 显示的栏目 */
+.module-toolbar a:hover{text-decoration:none;cursor:pointer}
+.module-toolbar .bar{height:50px;line-height:50px;border-bottom:1px solid #d2d2d2;background:#F7F7F7 left -53px repeat-x;}
+.module-toolbar .bar .icon-btn-upload{background-color:#1A71D3;background:url(../images/btn_sprit.gif) no-repeat 0 -601px;display:inline-block;*display:inline;*zoom:1;height:28px;padding:0 0 0 40px;vertical-align:middle;position:relative;margin:0 0 0 25px;_top:12px}
+.module-toolbar .bar .icon-btn-upload .text{background:url(images/btn_sprit.gif) no-repeat right -601px;display:inline-block;_display:inline;_zoom:1;height:28px;line-height:26px;line-height:29px\9;font-weight:100;color:#FFF;vertical-align:top;padding:0 22px 0 0;width:48px;_position:static}
+.module-toolbar .bar .icon-btn-upload .ico{top:5px;left:10px;position:absolute;height:20px;width:20px;background:url(../images/btn_icon.gif) no-repeat;background-position:-183px -282px}
+.module-crumbs{padding:5px 0;}
+.module-crumbs a:hover{text-decoration:underline;cursor:pointer}
+.module-crumbs .title .crumbs{padding:0 0 0 25px;color:#333;float:left}
+.module-crumbs .title .crumbs .item{display:inline-block;max-width:120px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden;vertical-align:top}
+.module-crumbs .title .loaded{float:right;margin-right:20px}
+.module-list-view{color:#000;margin:0 0 0 10px;}
+.module-list-view .title{height:41px;}
+.module-list-view .title{background:none repeat scroll 0 0 #f7f7f7;border:1px solid #d2d2d2;border-radius:2px;color:#888;}
+.module-list-view .item{border-bottom:1px solid #d2d2d2;}
+.module-list-view .item-hover {background-color: #f0f8fd;}
+.module-list-view .col{float:left;height:38px;line-height:38px;overflow:hidden;text-indent:10px;text-overflow:ellipsis;white-space:nowrap;width:10%;}
+.module-list-view .c1{overflow:visible;position:relative;text-align:left;top:0;}
+.module-list-view .title .col{border-left:1px solid #fff;border-right:1px solid #e5e5e5;height:41px;line-height:41px;}
+.module-list-view .title .c1{border-left:0 none;}
+
+/* 搜索按钮 */
+.upload_search{ float:right;}
+.upload_search .search{float:left; border: 1px solid #e4eaee; height: 30px; line-height: 30px; padding-left: 8px; margin-right:10px;}
+.upload_search .search .txt{height: 30px; line-height: 30px; width: 200px; font-size: 14px; border:none;}
+.upload_search .submit{display: inline-block; border-left: 1px solid #e4eaee; height: 30px; line-height: 30px; font-weight: bold; padding: 0 13px; vertical-align: top; background: #fff url(../images/gradient_linear.png) center bottom repeat-x; opacity: .9;}
+.upload_search .submit:hover{text-decoration: none; opacity: 1;}
+.upload_search .add_user{ display:inline-block; float: right; width:80px; height:32px; line-height:32px; text-align:center; color:#fff; background:#00969a; }

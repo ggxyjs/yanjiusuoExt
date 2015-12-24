@@ -1,0 +1,55 @@
+.module-grid-view .bar{position:relative;margin:0 0 0 10px;height:41px;border:1px solid #d2d2d2;border-right:1px solid #e5e5e5;border-left:1px solid #fff;border-radius:2px;background:#f7f7f7;color:#666;line-height:41px}
+.module-grid-view .chk{position:absolute;top:14px;left:14px;width:14px;height:14px;background:transparent url(/yun-static/common/images/btn_icon.gif?t=1432722697888) -113px 0 no-repeat}
+.module-grid-view .chked{background-position:-113px -19px}
+.module-grid-view .wrapper{position:relative;margin:10px 0 0 10px}
+.module-grid-view .wrapper .item{float:left;margin:4px 4px 0 0;width:142px;height:122px;text-align:center;line-height:0}
+.module-grid-view .wrapper .thumb-large{position:relative;overflow:hidden;margin:0 auto;width:90px;height:92px;border:2px solid #fff}
+.module-grid-view .wrapper .enabled .file-name a,.module-grid-view .wrapper .enabled .thumb-large{cursor:pointer}
+.module-grid-view .wrapper .thumb-dir{background:url(http://s1.pan.bdstatic.com/yun-static/clouddisk-ui-cdn/widget/grid-view/img/spritenew-f_b8b850f.gif) -24px 0 no-repeat}
+.module-grid-view .wrapper .item-active .thumb-large,.module-grid-view .wrapper .item-hover .thumb-large{border:2px solid #2e80dc}
+.module-grid-view .wrapper .thumb-large .item-chk{position:absolute;top:-8px;left:-8px;display:none;width:30px;height:30px;background:url(/yun-static/common/images/btn_icon.gif?t=1432722697888) 6px -305px no-repeat}
+.module-grid-view .wrapper .thumb-large .video-ico{position:absolute;top:27px;left:27px;display:none;width:40px;height:40px;background:url(http://s1.pan.bdstatic.com/yun-static/clouddisk-ui-cdn/widget/grid-view/img/video_gridview_arrow_icon_74c233d.png) -55px -30px no-repeat}
+.module-grid-view .wrapper .item-hover .video-ico{display:block}
+.module-grid-view .wrapper .thumb-large .item-chked{background-position:6px -340px}
+.module-grid-view .wrapper .item-active .item-chk,.module-grid-view .wrapper .item-hover .item-chk{display:inline-block}
+.module-grid-view .wrapper .file-name{height:28px;line-height:28px}
+.module-grid-view .wrapper .file-name a{display:inline-block;overflow:hidden;width:100%;color:#333;text-overflow:ellipsis;white-space:nowrap;cursor:default}
+.module-grid-view .item .edit-name{display:none;margin:0}
+.module-grid-view .item .edit-name .box{margin:0 3px 0 0;padding:2px 3px;width:75px;height:18px;border:1px solid #d2d2d2;background:#fff;vertical-align:middle}
+.module-grid-view .item .edit-name .sure{display:inline-block;width:22px;height:22px;background:url(/yun-static/common/images/btn_icon.gif?t=1432722697888) 0 -32pc;vertical-align:middle;cursor:pointer}
+.module-grid-view .item .edit-name .cancel{display:inline-block;width:22px;height:22px;background:url(/yun-static/common/images/btn_icon.gif?t=1432722697888) -27px -32pc;vertical-align:middle;cursor:pointer}
+.module-grid-view .loading{text-align:center;line-height:40px}
+.global-icon-62{display:inline-block;width:92px;height:92px;background:url(http://s1.pan.bdstatic.com/yun-static/common-cdn/images/clouddisk-ui/property_icon_101.png?t=1432033743378) 9999px 9999px no-repeat;background-position:0 0}
+.global-icon-62-shouchang{background-position:-820px 0}
+.global-icon-62-shouchang,.global-icon-62-yingyong,.global-icon-62-yingyong_child{background:url(http://s1.pan.bdstatic.com/yun-static/common-cdn/images/clouddisk-ui/spritenew-f.gif?t=1432033743378) 9999px 9999px no-repeat}
+.global-icon-62-yingyong,.global-icon-62-yingyong_child{background-position:-182px 0}
+.global-icon-62-beifen{background:url(http://s1.pan.bdstatic.com/yun-static/common-cdn/images/clouddisk-ui/spritenew-f.gif?t=1432033743378) 9999px 9999px no-repeat;background-position:-339px 0}
+.global-icon-62-doc,.global-icon-62-docx{background-position:-462px 0}
+.global-icon-62-xls,.global-icon-62-xlsx{background-position:-308px 0}
+.global-icon-62-ppt,.global-icon-62-pptx{background-position:-616px 0}
+.global-icon-62-vsd{background-position:-770px 0}
+.global-icon-62-pdf{background-position:-924px 0}
+.global-icon-62-apk{background-position:-1225px 0}
+.global-icon-62-dwg,.global-icon-62-dws,.global-icon-62-dwt,.global-icon-62-dxf{background-position:0 -117px}
+.global-icon-62-mmap{background-position:-153px -117px}
+.global-icon-62-xmind{background-position:-306px -117px}
+.global-icon-62-mm{background-position:-460px -117px}
+.global-icon-62-exe,.global-icon-62-msi{background-position:-1378px 0}
+.global-icon-62-dmg{background-position:-2602px 0}
+.global-icon-62-ipa{background-position:-1540px 0}
+.global-icon-62-zip{background-position:-154px 0}
+.global-icon-62-rar{background-position:-2142px 0}
+.global-icon-62-psd{background-position:-2294px 0}
+.global-icon-62-key{background-position:-2447px 0}
+.global-icon-62-ai{background-position:-2753px 0}
+.global-icon-62-txt{background-position:-67pc 0}
+.global-icon-62-torrent{background-position:-1990px 0}
+.global-icon-62-dir{background:url(http://s1.pan.bdstatic.com/yun-static/common-cdn/images/clouddisk-ui/spritenew-f.gif?t=1432033743378) 9999px 9999px no-repeat;background-position:-24px 0}
+.global-icon-62-aac,.global-icon-62-aif,.global-icon-62-amr,.global-icon-62-m4a,.global-icon-62-mid,.global-icon-62-midi,.global-icon-62-mp2,.global-icon-62-mp3,.global-icon-62-mpega,.global-icon-62-ogg,.global-icon-62-ra,.global-icon-62-ram,.global-icon-62-wav,.global-icon-62-wma{background-position:-1836px 0}
+.global-icon-62-3gp,.global-icon-62-asf,.global-icon-62-avi,.global-icon-62-flv,.global-icon-62-mkv,.global-icon-62-mov,.global-icon-62-mp4,.global-icon-62-mpeg,.global-icon-62-mpeg2,.global-icon-62-mpeg4,.global-icon-62-mpg,.global-icon-62-mpga,.global-icon-62-qt,.global-icon-62-rm,.global-icon-62-rmvb,.global-icon-62-swf,.global-icon-62-wm,.global-icon-62-wmd,.global-icon-62-wmv,.global-icon-62-wmx,.global-icon-62-wmz,.global-icon-62-wvx{background-position:-1685px 0}
+.global-icon-62-multi{background-position:-2902px -2px}
+.video{margin:0;margin-top:15px;padding:20px;color:#313131;text-align:center;font-size:20px}
+p{margin-top:7px;margin-right:2%;margin-left:2%;text-indent:2em;font-size:14px;line-height:1.8}
+li{margin-top:1%;margin-bottom:1%}
+li,span{font-weight:700}
+span{margin-left:40%;color:#000;font-style:normal;font-size:20px;font-family:serif}
